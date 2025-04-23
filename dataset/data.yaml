@@ -1,0 +1,13 @@
+train: C:\suniB\S2\Semester8\DeepLearning\Project\TrainingYolov8NoOCR\dataset\train
+val: C:\suniB\S2\Semester8\DeepLearning\Project\TrainingYolov8NoOCR\dataset\valid
+test: C:\suniB\S2\Semester8\DeepLearning\Project\TrainingYolov8NoOCR\dataset\test
+
+nc: 37
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Plate', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+roboflow:
+  workspace: revitos-workspace
+  project: alpr-dataset-hagan
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/revitos-workspace/alpr-dataset-hagan/dataset/1
